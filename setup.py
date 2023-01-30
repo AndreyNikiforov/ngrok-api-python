@@ -25,7 +25,7 @@ setup(
     ],
     python_requires=">=3.7",
     install_requires=[
-        "requests==2.25.1",
+        "requests>=2.25.1,<3",
     ],
     extras_require={
         "tox": ["tox==3.23.0"],
